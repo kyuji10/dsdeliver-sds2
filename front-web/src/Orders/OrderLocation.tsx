@@ -23,7 +23,7 @@ type Props = {
 }
 
 function OrderLocation({ onChangeLocation }: Props) {
-    const [adress, setAddress] = useState<Place>({
+    const [address, setAddress] = useState<Place>({
         position: initialPosition
     })
     const loadOptions = async (inputValue: string, callback: (places: Place[]) => void) => {
@@ -66,14 +66,14 @@ function OrderLocation({ onChangeLocation }: Props) {
                      onChange={value => handleChangeSelect(value as Place)}
                      />
                 </div>
-                <MapContainer center={adress.position} zoom={13} key={adress.position.lat} scrollWheelZoom>
+                <MapContainer center={address.position} zoom={13} key={address.position.lat} scrollWheelZoom>
                         <TileLayer
                             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
-                        <Marker position={adress.position}>
+                        <Marker position={address.position}>
                             <Popup>
-                              {adress.label}
+                              {address.label}
                             </Popup>
                         </Marker>
                     </MapContainer>
