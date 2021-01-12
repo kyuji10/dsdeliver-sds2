@@ -1,10 +1,10 @@
 # DS Delivery 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/santosediego/dsdeliver-sds2/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/dsdeliver-sds2/dsdeliver-sds2/blob/main/LICENSE) 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ab15e182-74db-4bed-acb2-23907fc2ed26/deploy-status)](https://app.netlify.com/sites/sds2diegosantos/deploys)
 
 # Sobre o projeto
 
-https://sds2diegosantos.netlify.app/
+https://yuji-sds2.netlify.app/
 
 DS Delivery é uma aplicação full stack web e mobile construída durante a 2ª edição da **Semana DevSuperior** (#sds2), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
@@ -49,7 +49,7 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/santosediego/dsdeliver-sds2.git
+git clone https://github.com/kyuji10/dsdeliver-sds2.git
 
 # entrar na pasta do projeto back end
 cd backend
@@ -63,7 +63,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/santosediego/dsdeliver-sds2.git
+git clone https://github.com/kyuji10/dsdeliver-sds2.git
 
 # entrar na pasta do projeto front end web
 cd front-web
@@ -80,7 +80,7 @@ Pré-requisitos: npm / expo
 
 ```bash
 # clonar repositório
-git clone https://github.com/santosediego/dsdeliver-sds2.git
+git clone https://github.com/kyuji10/dsdeliver-sds2.git
 
 # entrar na pasta do projeto front end web
 cd front-mobile
